@@ -41,8 +41,9 @@ class ITDep extends Department {
   }
 }
 
-// const itDep = new ITDep("Dep3",[],[])
+// const itDep = new ITDep("Dep3", [], []);
 // itDep.employees;
+// itDep.doSomething;
 
 class AccountingDep extends Department {
   private static instance: AccountingDep;
